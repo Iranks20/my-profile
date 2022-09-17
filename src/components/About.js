@@ -16,7 +16,7 @@ function About() {
                   <div className="row">
                     <div className="col-sm-6 col-md-5">
                       <div className="about-img">
-                        <img src="assets/img/hero-bg-2.jpg" className="img-fluid rounded b-shadow-a" alt="" />
+                        <img src="assets/img/hero-bg2.jpg" className="img-fluid rounded b-shadow-a" alt="" />
                       </div>
                     </div>
                     <div className="col-sm-6 col-md-7">
@@ -28,9 +28,9 @@ function About() {
                       </div>
                     </div>
                   </div>
-                  <div className="skill-mf">
+                  {/* <div className="skill-mf">
                     <p className="title-s">Skill</p>
-                    {/* <span>HTML</span> <span className="pull-right">85%</span>
+                    <span>HTML</span> <span className="pull-right">85%</span>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar"  style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -42,11 +42,11 @@ function About() {
                     <div className="progress">
                       <div className="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>JAVASCRIPT</span> <span className="pull-right">90%</span> */}
-                    {/* <div className="progress">
+                    <span>JAVASCRIPT</span> <span className="pull-right">90%</span>
+                    <div className="progress">
                       <div className="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div> */}
-                  </div>
+                    </div>
+                  </div> */}
                 </div>
                 <div className="col-md-6">
                   <div className="about-me pt-4 pt-md-0">
