@@ -1,8 +1,45 @@
-import React from 'react'
+import React, {useRef, useState} from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Spinner } from "react-bootstrap";
 
 function Contact() {
+  const [isLoading, SetLoading] = useState(false);
+  const form = useRef();
+  const sendEmail = (e) => {
+    SetLoading(true)
+    e.preventDefault();
+    emailjs.sendForm("service_jmx03jp", "template_odobd0v", form.current, "59iJRXKiAxT5F25-3")
+       .then((result) => {
+        // console.log(result)
+       const response = JSON.stringify(result);
+        console.log(response);
+        if (result.status === 200) {
+          SetLoading(false)
+          toast("Your message to Irankunda has been sent successfully")
+        } else if (result.status =! 200){
+          SetLoading(false)
+          toast("technical error")
+        }
+        //show user success mesage
+        // how to change my result into a jsonif format 
+        // then call it back, make an if-sst
+       }, (error) => {
+       const response = JSON.stringify(error);
+         console.log(response);
+         if (error.status === 0) {
+          SetLoading(false)
+          toast(error.text)
+        } else if (error.status =! 200){
+          SetLoading(false)
+          toast("technical error")
+        }
+       });
+  };
   return (
     <div>
+      <ToastContainer />
       <main id="main">
         {/* <!-- ======= Contact Section ======= --> */}
     <section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route" style={{ backgroundImage: "url(assets/img/overlay-bg.jpg)" }}>
@@ -16,25 +53,25 @@ function Contact() {
                   <div className="col-md-6">
                     <div className="title-box-2">
                       <h5 className="title-left">
-                        Send Message Us
+                        Send Message to me
                       </h5>
                     </div>
                     <div>
-                      <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+                      <form ref={form} onSubmit={sendEmail}>
                         <div className="row">
                           <div className="col-md-12 mb-3">
                             <div className="form-group">
-                              <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
+                              <input type="email" name="from_name" className="form-control" id="from_name" placeholder="Your Email" required />
                             </div>
                           </div>
                           <div className="col-md-12 mb-3">
                             <div className="form-group">
-                              <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required />
+                              <input type="text" className="form-control" name=" from_email" id="email" placeholder="Your Name" required />
                             </div>
                           </div>
                           <div className="col-md-12 mb-3">
                             <div className="form-group">
-                              <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
+                              <input type="text" className="form-control" name="reply_to" id="subject" placeholder="Subject" required />
                             </div>
                           </div>
                           <div className="col-md-12">
@@ -42,13 +79,11 @@ function Contact() {
                               <textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                             </div>
                           </div>
-                          <div className="col-md-12 text-center my-3">
-                            <div className="loading">Loading</div>
-                            <div className="error-message"></div>
-                            <div className="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
+                          <div><br /></div>
                           <div className="col-md-12 text-center">
-                            <button type="submit" className="button button-a button-big button-rouded">Send Message</button>
+                            { 
+                            isLoading ? <button className="button button-a button-big button-rouded"><Spinner animation="border" variant="light" /></button> : <button type="submit" className="button button-a button-big button-rouded" value="Send">Send Message</button>
+                            }
                           </div>
                         </div>
                       </form>
@@ -62,23 +97,21 @@ function Contact() {
                     </div>
                     <div className="more-info">
                       <p className="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
+                      While i’am good with smoke signals, there are simpler ways for me to get in touch with you.
+                        If you have any question or querries i will always be happy to respond, feel free to contact me by telephoone or email and am sure to get back to you as soon as possible.
                       </p>
                       <ul className="list-ico">
-                        <li><span className="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                        <li><span className="bi bi-phone"></span> (617) 557-0089</li>
-                        <li><span className="bi bi-envelope"></span> contact@example.com</li>
+                        <li><span className="bi bi-geo-alt"></span> KAMPALA CITY UGANDA</li>
+                        <li><span className="bi bi-phone"></span> <a href="tel:+256771289654">+25677189654</a></li>
+                        <li><span className="bi bi-envelope"></span> <a href="mailto:rankunda48@gmail.com">rankunda48@gmail</a></li>
                       </ul>
                     </div>
                     <div className="socials">
                       <ul>
-                        <li><a href=""><span className="ico-circle"><i className="bi bi-facebook"></i></span></a></li>
-                        <li><a href=""><span className="ico-circle"><i className="bi bi-instagram"></i></span></a></li>
-                        <li><a href=""><span className="ico-circle"><i className="bi bi-twitter"></i></span></a></li>
-                        <li><a href=""><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://wa.me/qr/FXOLHHJBOCBFO1"><span className="ico-circle"><i className="bi bi-whatsapp"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/lrankslnno?r=nametag"><span className="ico-circle"><i className="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://twitter.com/InnoIranks?t=jj8jiHPBCCnDXpfVAc8XGg&s=08"><span className="ico-circle"><i className="bi bi-twitter"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/rankunda-ino-334131223"><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
                       </ul>
                     </div>
                   </div>
@@ -89,10 +122,8 @@ function Contact() {
         </div>
       </div>
     </section>
-    {/* <!-- End Contact Section --> */}
       </main>
 
-      
     </div>
   )
 }
