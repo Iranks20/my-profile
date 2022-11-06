@@ -15,7 +15,7 @@ function Blog() {
                 Blog
               </h3>
               <p className="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                News and trends about me
               </p>
               <div className="line-mf"></div>
             </div>
