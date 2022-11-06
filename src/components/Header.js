@@ -4,6 +4,20 @@ import React from 'react'
 
 
 function Header() {
+const onButtonClick = () => {
+  // using Java Script method to get PDF file
+  fetch('INNOCENT.pdf').then(response => {
+      response.blob().then(blob => {
+          // Creating new object of PDF file
+          const fileURL = window.URL.createObjectURL(blob);
+          // Setting various property values
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = 'INNOCENT.pdf';
+          alink.click();
+      })
+      })
+  }
   return (
     <div>
           {/* <!-- ======= Header ======= --> */}
@@ -33,7 +47,7 @@ function Header() {
   {/* <!-- End Header --> */}
 
   {/* <!-- ======= Hero Section ======= --> */}
-  <div id="hero" className="hero route bg-image" style={{ backgroundImage: "url(assets/img/hero-bg.jpg)" }}>
+  <div id="hero" className="hero route bg-image" style={{ backgroundImage: "url(assets/img/hero-bg8.jpg)" }}>
     <div className="overlay-itro"></div>
     <div className="hero-content display-table">
       <div className="table-cell">
@@ -41,7 +55,7 @@ function Header() {
           <p className="display-6 color-d">Hello, world!</p>
           <h1 className="hero-title mb-4">I AM IRANKUNDA INNOCENT</h1>
           <p className="hero-subtitle"><span className="typed" data-typed-items="Designer,Full stack Developer, Freelancer, "></span></p>
-           <p className="pt-3"><a className="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> 
+           <button className="btn btn-primary btn js-scroll px-4" role="button" onClick={onButtonClick}> Download CV</button> 
         </div>
       </div>
     </div>
@@ -55,4 +69,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;
