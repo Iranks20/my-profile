@@ -25,28 +25,38 @@ function About() {
                         <p><span className="title-s">Profile: </span> <span>full stack developer</span></p>
                         <p><span className="title-s">Email: </span> <span>rankunda48@gmail.com</span></p>
                         <p><span className="title-s">Phone: </span> <span>+256771289654</span></p>
+                        <p><span className="title-s">Date of Birth: </span> <span>24-10-2000</span></p>
+                        <p><span className="title-s">GitHub: </span> <span>https://github.com/Iranks20</span></p>
                       </div>
                     </div>
                   </div>
-                  {/* <div className="skill-mf">
+                  <div className="skill-mf">
                     <p className="title-s">Skill</p>
-                    <span>HTML</span> <span className="pull-right">85%</span>
+                    <span>HTML</span> <span className="pull-right">80%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar"  style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar" role="progressbar"  style={{ width: "80%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <span>CSS3</span> <span className="pull-right">75%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar" role="progressbar"  style={{ width: "75%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>PHP</span> <span className="pull-right">50%</span>
+                    <span>JAVASCRIPT</span> <span className="pull-right">50%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>JAVASCRIPT</span> <span className="pull-right">90%</span>
+                    <span>REACT.JS</span> <span className="pull-right">60%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                  </div> */}
+                    <span>FLASK</span> <span className="pull-right">60%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>PHP</span> <span className="pull-right">30%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: "30%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
                 </div>
                 <div className="col-md-6">
                   <div className="about-me pt-4 pt-md-0">
@@ -56,20 +66,9 @@ function About() {
                       </h5>
                     </div>
                     <p className="lead">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                      imperdiet et, porttitor
-                      at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                      porttitor accumsan tincidunt.
-                    </p>
-                    <p className="lead">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                      porttitor volutpat. Vestibulum
-                      ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                    </p>
-                    <p className="lead">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                      Nulla porttitor accumsan
-                      tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                      Passionate Information and financial technology professional with 1 year experience of dealing in solving complex problems
+                      . Currently am a free lancer and open to work.
+                      For mor information about my projects you can follow my github account link below: https://github.com/Iranks20
                     </p>
                   </div>
                 </div>

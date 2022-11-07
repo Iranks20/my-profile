@@ -14,7 +14,8 @@ function Portfolio() {
                 Portfolio
               </h3>
               <p className="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                For more of my works click the link below to direct to my github account:  
+                https://github.com/Iranks20
               </p>
               <div className="line-mf"></div>
             </div>
@@ -23,22 +24,17 @@ function Portfolio() {
         <div className="row">
           <div className="col-md-4">
             <div className="work-box">
-              <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <a href="assets/img/work-9.png" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" className="img-fluid" />
+                  <img src="assets/img/work-9.png" alt="" className="img-fluid" />
                 </div>
               </a>
               <div className="work-content">
                 <div className="row">
                   <div className="col-sm-8">
-                    <h2 className="w-title">Lorem impsum dolor</h2>
+                    <h2 className="w-title">App home page</h2>
                     <div className="w-more">
-                      <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="w-like">
-                      <a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+                      <span className="w-ctegory">MOBILE APP DEV</span> / <span className="w-date">18 dec. 2021</span>
                     </div>
                   </div>
                 </div>
@@ -47,22 +43,17 @@ function Portfolio() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <a href="assets/img/work-10.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" className="img-fluid" />
+                  <img src="assets/img/work-10.jpg" alt="" className="img-fluid" />
                 </div>
               </a>
               <div className="work-content">
                 <div className="row">
                   <div className="col-sm-8">
-                    <h2 className="w-title">Loreda Cuno Nere</h2>
+                    <h2 className="w-title">Business Barner</h2>
                     <div className="w-more">
-                      <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="w-like">
-                      <a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+                      <span className="w-ctegory">GRAPHICS DESIGN</span> / <span className="w-date">18 April. 2022</span>
                     </div>
                   </div>
                 </div>
@@ -71,22 +62,17 @@ function Portfolio() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <a href="assets/img/work-11.png" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" className="img-fluid" />
+                  <img src="assets/img/work-11.png" alt="" className="img-fluid" />
                 </div>
               </a>
               <div className="work-content">
                 <div className="row">
                   <div className="col-sm-8">
-                    <h2 className="w-title">Mavrito Lana Dere</h2>
+                    <h2 className="w-title">App welcome page</h2>
                     <div className="w-more">
-                      <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="w-like">
-                      <a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+                      <span className="w-ctegory">GRAPHICS DESIGN</span> / <span className="w-date">08 Jan. 2022</span>
                     </div>
                   </div>
                 </div>
@@ -95,22 +81,17 @@ function Portfolio() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <a href="assets/img/work-12.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
-                  <img src="assets/img/work-4.jpg" alt="" className="img-fluid" />
+                  <img src="assets/img/work-12.jpg" alt="" className="img-fluid" />
                 </div>
               </a>
               <div className="work-content">
                 <div className="row">
                   <div className="col-sm-8">
-                    <h2 className="w-title">Bindo Laro Cado</h2>
+                    <h2 className="w-title">Announcements page</h2>
                     <div className="w-more">
-                      <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="w-like">
-                      <a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+                      <span className="w-ctegory">GRAPHICS DESIGN</span> / <span className="w-date">09 Jan. 2022</span>
                     </div>
                   </div>
                 </div>
@@ -119,22 +100,17 @@ function Portfolio() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <a href="assets/img/work-13.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
-                  <img src="assets/img/work-5.jpg" alt="" className="img-fluid" />
+                  <img src="assets/img/work-13.jpg" alt="" className="img-fluid" />
                 </div>
               </a>
               <div className="work-content">
                 <div className="row">
                   <div className="col-sm-8">
-                    <h2 className="w-title">Studio Lena Mado</h2>
+                    <h2 className="w-title">Announcemets page</h2>
                     <div className="w-more">
-                      <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="w-like">
-                      <a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+                      <span className="w-ctegory">GRAPHICS DESIGN</span> / <span className="w-date">04 FEB. 2022</span>
                     </div>
                   </div>
                 </div>
@@ -143,22 +119,17 @@ function Portfolio() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <a href="assets/img/work-14.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
-                  <img src="assets/img/work-6.jpg" alt="" className="img-fluid" />
+                  <img src="assets/img/work-14.jpg" alt="" className="img-fluid" />
                 </div>
               </a>
               <div className="work-content">
                 <div className="row">
                   <div className="col-sm-8">
-                    <h2 className="w-title">Studio Big Bang</h2>
+                    <h2 className="w-title">Entertainment page</h2>
                     <div className="w-more">
-                      <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="w-like">
-                      <a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+                      <span className="w-ctegory">MOBILE APP DEV</span> / <span className="w-date">18 March. 2022</span>
                     </div>
                   </div>
                 </div>

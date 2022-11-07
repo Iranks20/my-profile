@@ -14,7 +14,7 @@ function Services() {
                 Services
               </h3>
               <p className="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                EyeBeam is what i do
               </p>
               <div className="line-mf"></div>
             </div>
@@ -27,11 +27,12 @@ function Services() {
                 <span className="ico-circle"><i className="bi bi-briefcase"></i></span>
               </div>
               <div className="service-content">
-                <h2 className="s-title">Web Design</h2>
+                <h2 className="s-title">MOBILE APP DEVELOPMENT</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                KOTLIN DEVELOPER – AHUMUZA INNOVATIONS HUB:
+                Developed a mobile E-notice board app that allows both students
+                and lecturers to post their communications and announcements. It
+                works as a usual notice board in universities but in a digital way
                 </p>
               </div>
             </div>
@@ -42,11 +43,13 @@ function Services() {
                 <span className="ico-circle"><i className="bi bi-card-checklist"></i></span>
               </div>
               <div className="service-content">
-                <h2 className="s-title">Web Development</h2>
+                <h2 className="s-title">WEB DEVELOPMENT</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                FULL-STACK DEVELOPER – EREMIT LTD:
+                Developed an E-wallet system which would help users transfer
+                money from one country to another ….it was developed using
+                MYSQL – FLASK- REACT JS.
+
                 </p>
               </div>
             </div>
@@ -57,11 +60,9 @@ function Services() {
                 <span className="ico-circle"><i className="bi bi-bar-chart"></i></span>
               </div>
               <div className="service-content">
-                <h2 className="s-title">Photography</h2>
+                <h2 className="s-title">WEB DEVELOPMENT</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  Developed a music website where users can search for their songs and be able to download them to their local storages.
                 </p>
               </div>
             </div>
@@ -72,11 +73,9 @@ function Services() {
                 <span className="ico-circle"><i className="bi bi-binoculars"></i></span>
               </div>
               <div className="service-content">
-                <h2 className="s-title">Responsive Design</h2>
+                <h2 className="s-title">WEB DEVELOPMENT</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  Developed a charity website which allowed donors to pay through the website.
                 </p>
               </div>
             </div>
@@ -87,16 +86,16 @@ function Services() {
                 <span className="ico-circle"><i className="bi bi-brightness-high"></i></span>
               </div>
               <div className="service-content">
-                <h2 className="s-title">Graphic Design</h2>
+                <h2 className="s-title">GRAPHICS DESIGNER</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
+                GRAPHICS DESIGNER – AHUMUZA INNOVATIONS HUB:
+                I developed mockups for a full mobile app using adobe
+                photoshop and adobe illustrator
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <div className="service-box">
               <div className="service-ico">
                 <span className="ico-circle"><i className="bi bi-calendar4-week"></i></span>
@@ -110,7 +109,7 @@ function Services() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
