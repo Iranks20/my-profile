@@ -32,19 +32,27 @@ function About() {
                   </div>
                   <div className="skill-mf">
                     <p className="title-s">Skill</p>
-                    <span>HTML</span> <span className="pull-right">80%</span>
+                    <span>HTML5</span> <span className="pull-right">90%</span>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar"  style={{ width: "80%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>CSS3</span> <span className="pull-right">75%</span>
+                    <span>CSS3</span> <span className="pull-right">90%</span>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar"  style={{ width: "75%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>JAVASCRIPT</span> <span className="pull-right">50%</span>
+                    <span>JAVASCRIPT</span> <span className="pull-right">85%</span>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>REACT.JS</span> <span className="pull-right">60%</span>
+                    <span>REACT JS</span> <span className="pull-right">85%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>AGULAR JS</span> <span className="pull-right">60%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>NODE JS</span> <span className="pull-right">70%</span>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -66,9 +74,8 @@ function About() {
                       </h5>
                     </div>
                     <p className="lead">
-                      Passionate Information and financial technology professional with 1 year experience of dealing in solving complex problems
-                      . Currently am a free lancer and open to work.
-                      For mor information about my projects you can follow my github account link below: https://github.com/Iranks20
+                    Am an experienced full-stack developer with 4 Years experience of broad skillset in web development technologies, including HTML, CSS, JavaScript, ReactJS, NodeJS, Python, Flask, PHP, AWS, Vercel, Netlify, and Heroku. My experience in both front-end and back-end development, coupled with my knowledge of server-side programming, enables me to build high-quality web applications that meet client requirements.  Am proficient in developing responsive and intuitive user interfaces, utilizing frameworks like ReactJS, and have experience building RESTful APIs and integrating third-party services. Additionally, i have expertise in deploying and hosting web applications on various platforms like AWS, Vercel, Netlify, and Heroku. Am a quick learner who stays up-to-date with the latest trends and techniques in web development. My experience with multiple technologies and platforms makes me a valuable asset for any project, and i take pride in delivering top-notch solutions that exceed client expectations.
+
                     </p>
                   </div>
                 </div>

@@ -15,7 +15,7 @@ function Counter() {
                 <span className="ico-circle"><i className="bi bi-check"></i></span>
               </div>
               <div className="counter-num">
-                <p>4</p>
+                <p>11</p>
                 <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" className="counter purecounter"></p>
                 <span className="counter-text">WORKS COMPLETED</span>
               </div>
@@ -27,7 +27,7 @@ function Counter() {
                 <span className="ico-circle"><i className="bi bi-journal-richtext"></i></span>
               </div>
               <div className="counter-num">
-                <p>1.5</p>
+                <p>4</p>
                 <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" className="counter purecounter"></p>
                 <span className="counter-text">YEARS OF EXPERIENCE</span>
               </div>
@@ -51,7 +51,7 @@ function Counter() {
                 <span className="ico-circle"><i className="bi bi-award"></i></span>
               </div>
               <div className="counter-num">
-                <p>5</p>
+                <p>6</p>
                 <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" className="counter purecounter"></p>
                 <span className="counter-text">CERTIFICATES EARNED</span>
               </div>
