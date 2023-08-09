@@ -1,6 +1,12 @@
 import React from 'react'
 
 function Portfolio() {
+  const cardStyle = {
+    height: '500px', // Adjust this value for the desired height
+    width: '100%', // To ensure the cards span the entire width
+    overflow: 'hidden',
+    marginBottom: '20px', // Add spacing between cards
+  };
   return (
     <div>
       <main id="main">
@@ -23,7 +29,7 @@ function Portfolio() {
         </div>
         <div className="row">
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={cardStyle}>
               <a href="assets/img/work-9.png" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
                   <img src="assets/img/work-9.png" alt="" className="img-fluid" />
@@ -41,7 +47,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <div className="work-box">
               <a href="assets/img/work-10.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
@@ -59,9 +65,9 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={cardStyle}>
               <a href="assets/img/work-11.png" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
                   <img src="assets/img/work-11.png" alt="" className="img-fluid" />
@@ -80,7 +86,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={cardStyle}>
               <a href="assets/img/work-12.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
                   <img src="assets/img/work-12.jpg" alt="" className="img-fluid" />
@@ -99,7 +105,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={cardStyle}>
               <a href="assets/img/work-13.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
                   <img src="assets/img/work-13.jpg" alt="" className="img-fluid" />
@@ -118,7 +124,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="work-box">
+            <div className="work-box" style={cardStyle}>
               <a href="assets/img/work-14.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
                   <img src="assets/img/work-14.jpg" alt="" className="img-fluid" />

@@ -16,7 +16,7 @@ function About() {
                   <div className="row">
                     <div className="col-sm-6 col-md-5">
                       <div className="about-img">
-                        <img src="assets/img/hero-bg2.jpg" className="img-fluid rounded b-shadow-a" alt="" />
+                        <img src="assets/img/INNO.jpg" className="img-fluid rounded b-shadow-a" alt="" />
                       </div>
                     </div>
                     <div className="col-sm-6 col-md-7">
@@ -32,29 +32,49 @@ function About() {
                   </div>
                   <div className="skill-mf">
                     <p className="title-s">Skill</p>
-                    <span>HTML</span> <span className="pull-right">80%</span>
+                    <span>HTML5</span> <span className="pull-right">90%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar"  style={{ width: "80%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar" role="progressbar"  style={{ width: "90%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>CSS3</span> <span className="pull-right">75%</span>
+                    <span>CSS3</span> <span className="pull-right">90%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar"  style={{ width: "75%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar" role="progressbar"  style={{ width: "90%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>JAVASCRIPT</span> <span className="pull-right">50%</span>
+                    <span>JAVASCRIPT</span> <span className="pull-right">85%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>REACT.JS</span> <span className="pull-right">60%</span>
+                    <span>REACT JS</span> <span className="pull-right">85%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>AGULAR JS</span> <span className="pull-right">60%</span>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>NODE JS</span> <span className="pull-right">80%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>REACT NATIVE</span> <span className="pull-right">70%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: "70%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>PYTHON</span> <span className="pull-right">75%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: "755%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <span>FLASK</span> <span className="pull-right">60%</span>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>PHP</span> <span className="pull-right">30%</span>
+                    <span>PHP</span> <span className="pull-right">50%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar" style={{ width: "30%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>LARAVEL</span> <span className="pull-right">50%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: "50%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -66,9 +86,9 @@ function About() {
                       </h5>
                     </div>
                     <p className="lead">
-                      Passionate Information and financial technology professional with 1 year experience of dealing in solving complex problems
-                      . Currently am a free lancer and open to work.
-                      For mor information about my projects you can follow my github account link below: https://github.com/Iranks20
+                    I am a seasoned full-stack developer with four years of extensive experience in both web and mobile application development. My skill set includes a wide range of cutting-edge technologies, such as HTML, CSS, JavaScript, ReactJS, React Native, NodeJS, Python, Flask, PHP, and Laravel. I am proficient in deploying and hosting applications across diverse platforms, including AWS, Vercel, Netlify, and Heroku.
+                    My expertise spans both front-end and back-end development, along with a comprehensive grasp of server-side programming. This enables me to craft superior applications that exceed client expectations. I have a strong track record of designing and implementing RESTful APIs, seamlessly integrating third-party services, and developing responsive interfaces using frameworks like ReactJS and React Native.
+                    My agility in adapting to new technologies and my unwavering commitment to staying abreast of the latest industry trends position me as a valuable asset for any project. I am passionate about consistently delivering high-caliber solutions that fulfill and surpass client expectations across the entire spectrum of application development. I am excited about the opportunity to leverage my expertise and contribute to the success of your projects.
                     </p>
                   </div>
                 </div>

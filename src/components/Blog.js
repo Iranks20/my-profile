@@ -2,6 +2,12 @@
 import React from 'react'
 
 function Blog() {
+  const cardStyle = {
+    height: '850px', // Adjust this value for the desired height
+    width: '100%', // To ensure the cards span the entire width
+    overflow: 'hidden',
+    marginBottom: '20px', // Add spacing between cards
+  };
   return (
     <div>
       <main id="main">
@@ -23,7 +29,7 @@ function Blog() {
         </div>
         <div className="row">
           <div className="col-md-4">
-            <div className="card card-blog">
+            <div className="card card-blog" style={cardStyle}>
               <div className="card-img">
                 <a href="blog-single.html"><img src="assets/img/post-5.png" alt="" className="img-fluid" /></a>
               </div>
@@ -55,7 +61,7 @@ function Blog() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card card-blog">
+            <div className="card card-blog" style={cardStyle}>
               <div className="card-img">
                 <a href="blog-single.html"><img src="assets/img/post-6.jpg" alt="" className="img-fluid" /></a>
               </div>
@@ -118,7 +124,7 @@ function Blog() {
             </div>
           </div> */}
           <div className="col-md-4">
-            <div className="card card-blog">
+            <div className="card card-blog" style={cardStyle}>
               <div className="card-img">
                 <a href="blog-single.html"><img src="assets/img/post-9.png" alt="" className="img-fluid" /></a>
               </div>
