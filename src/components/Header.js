@@ -52,7 +52,7 @@ const onButtonClick = () => {
     <div className="hero-content display-table">
       <div className="table-cell">
         <div className="container">
-          <p className="display-6 color-d">Hello, world!</p>
+          <p className="display-6 color-d">Hello !</p>
           <h1 className="hero-title mb-4">I AM IRANKUNDA INNOCENT</h1>
           <p className="hero-subtitle"><span className="typed" data-typed-items="Designer,Full stack Developer, Freelancer, "></span></p>
            <button className="btn btn-primary btn js-scroll px-4" role="button" onClick={onButtonClick}> Download CV</button> 
